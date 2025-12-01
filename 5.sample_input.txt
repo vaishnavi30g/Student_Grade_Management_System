@@ -1,1 +1,56 @@
+Sample Case
 
+
+Step,System Action,User Input
+1,Main Menu Choice (1. Create)
+2,Enter Name,Alice Smith
+3,Enter Admission Number,2024001
+4,Enter Roll Number,12
+5,Enter Batch,2025-2029
+6,Enter Course,B.Tech CSE
+7,How many subjects?,3
+8,Subject 1 Name,Programming
+9,Subject 1 Marks (0-100),85.5
+10,Subject 2 Name,Calculus
+11,Subject 2 Marks (0-100),92
+12,Subject 3 Name,Physics
+13,Subject 3 Marks (0-100),78.5
+
+14,Main Menu Choice (2. Print)
+STUDENT REPORT CARD           
+
+ Name        : Alice Smith                   Roll No : 12
+ Admission # : 2024001           Roll No : 12
+ Course      : B.Tech CSE        Batch   : 2025-2029
+----------------------------------------------
+ SUBJECT                 | MARKS      
+----------------------------------------------
+ Programming             | 85.50     
+ Calculus                | 92.00     
+ Physics                 | 78.50     
+----------------------------------------------
+ Total Marks : 256.00 / 300.00
+ Percentage  : 85.33%
+ OVERALL GRADE : B
+
+
+Main Menu Choice (3. View History)	3
+--- LOADING ALL SAVED RECORDS ---
+==============================================
+Name: Alice Smith | Roll: 12 | Adm: 2024001
+Batch: 2025-2029 | Course: B.Tech CSE
+Subjects:
+ - Programming: 85.50
+ - Calculus: 92.00
+ - Physics: 78.50
+Percentage: 85.33% | GRADE: B
+==============================================
+
+--- END OF RECORDS ---
+
+Case 4: Deleting a Record
+
+--- DELETE STUDENT RECORD ---
+Enter Admission Number of the student to delete: 2024001
+[Match Found] Deleting record for Admission #2024001...
+[Success] Record with Admission #2024001 deleted successfully.
